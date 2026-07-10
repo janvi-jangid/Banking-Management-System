@@ -20,7 +20,7 @@ import {
 import SaveIcon from "@mui/icons-material/Save";
 import RestartAltIcon from "@mui/icons-material/RestartAlt";
 
-const SETTINGS_KEY = "novabankSettings";
+const SETTINGS_KEY = "justbankSettings";
 
 function readSettings() {
     try {

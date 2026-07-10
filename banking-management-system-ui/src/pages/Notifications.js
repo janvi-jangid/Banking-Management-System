@@ -36,7 +36,7 @@ const formatDate = (value) => {
 
 function getLowBalanceLimit() {
     try {
-        const settings = JSON.parse(localStorage.getItem("novabankSettings"));
+        const settings = JSON.parse(localStorage.getItem("justbankSettings"));
         return Number(settings?.lowBalanceLimit || 1000);
     } catch {
         return 1000;

@@ -107,7 +107,7 @@ export default function Sidebar() {
                             letterSpacing: 1
                         }}
                     >
-                        NovaBank
+                        JustBank
                     </Typography>
 
                     <Typography

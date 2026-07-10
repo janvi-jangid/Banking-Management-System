@@ -7,7 +7,7 @@ const api = axios.create({
 
 api.interceptors.request.use((config) => {
     try {
-        const settings = JSON.parse(localStorage.getItem("novabankSettings"));
+        const settings = JSON.parse(localStorage.getItem("justbankSettings"));
         if (settings?.apiUrl) {
             config.baseURL = settings.apiUrl;
         }

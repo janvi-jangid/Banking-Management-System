@@ -1,4 +1,4 @@
-const AUTH_KEY = "novabankAuth";
+const AUTH_KEY = "justbankAuth";
 
 export function getAuthUser() {
     try {

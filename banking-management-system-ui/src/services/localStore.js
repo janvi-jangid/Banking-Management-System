@@ -1,6 +1,6 @@
-const CUSTOMERS_KEY = "novabankLocalCustomers";
-const ACCOUNTS_KEY = "novabankLocalAccounts";
-const TRANSACTIONS_KEY = "novabankLocalTransactions";
+const CUSTOMERS_KEY = "justbankLocalCustomers";
+const ACCOUNTS_KEY = "justbankLocalAccounts";
+const TRANSACTIONS_KEY = "justbankLocalTransactions";
 
 function readList(key) {
     try {
