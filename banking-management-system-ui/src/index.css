@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background: #050b18;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiTypography-root,
+.MuiTableCell-root,
+.MuiInputBase-input,
+.MuiInputLabel-root,
+.MuiFormHelperText-root,
+.MuiSelect-select,
+.MuiMenuItem-root,
+.MuiDialogTitle-root,
+.MuiDialogContent-root,
+.MuiDialogContentText-root,
+.MuiTablePagination-root,
+.MuiTablePagination-selectLabel,
+.MuiTablePagination-displayedRows {
+  color: #ffffff !important;
+}
+
+.MuiInputLabel-root.Mui-focused,
+.MuiFormHelperText-root.Mui-error {
+  color: #c4b5fd !important;
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(148, 163, 184, 0.35) !important;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #8b5cf6 !important;
+}
+
+.MuiPaper-root,
+.MuiPopover-paper,
+.MuiMenu-paper {
+  background-color: #111a2e !important;
+  color: #ffffff !important;
+}
